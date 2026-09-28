@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --mist: #edf1ee;
+  --surface: #fbfcfb;
+  --pine: #0f3d33;
+  --pine-soft: #dce8e2;
+  --pine-dim: #b7c8c0;
+  --ink: #1b2622;
+  --ink-soft: #5b6a64;
+  --line: #cbd6d0;
 }
 
 @theme inline {
@@ -10,6 +18,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+.font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +32,7 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--mist);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
 }
