@@ -33,7 +33,7 @@ The unique constraint on `(service_id, booking_date, booking_time)` exists becau
 
 1. Clone the repo:
    ```
-   git clone https://github.com/YOUR-USERNAME/booking-flow.git
+   git clone https://github.com/Fisarhyorh/booking-flow.git
    cd booking-flow
    ```
 
